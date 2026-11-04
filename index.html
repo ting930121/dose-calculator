@@ -52,18 +52,11 @@ input:focus{outline:2px solid #a99bd2}
 <div id="powderFields">
 <label for="totalDose">藥瓶總劑量（mg）</label>
 <input id="totalDose" type="number" inputmode="decimal" placeholder="例如：1500">
-<label for="finalVolume">稀釋後總體積（mL）</label>
-<input id="finalVolume" type="number" inputmode="decimal" placeholder="例如：6">
 <label for="dose1">醫囑給藥劑量（mg）</label>
 <input id="dose1" type="number" inputmode="decimal" placeholder="例如：700">
+<label for="finalVolume">預稀釋量（mL）</label>
+<input id="finalVolume" type="number" inputmode="decimal" placeholder="例如：5">
 <div class="hint">請輸入藥品實際稀釋完成後的總體積。</div>
-</div>
-
-<div id="concentrationFields" hidden>
-<label for="mgPerMl">藥液濃度（mg/mL）</label>
-<input id="mgPerMl" type="number" inputmode="decimal" placeholder="例如：250">
-<label for="dose2">醫囑給藥劑量（mg）</label>
-<input id="dose2" type="number" inputmode="decimal" placeholder="例如：500">
 </div>
 
 <div id="perccFields" hidden>
@@ -71,6 +64,13 @@ input:focus{outline:2px solid #a99bd2}
 <input id="mgPerCc" type="number" inputmode="decimal" placeholder="例如：5">
 <label for="dose3">醫囑給藥劑量（mg）</label>
 <input id="dose3" type="number" inputmode="decimal" placeholder="例如：4.5">
+</div>
+
+<div id="concentrationFields" hidden>
+<label for="mgPerMl">藥液濃度（mg/mL）</label>
+<input id="mgPerMl" type="number" inputmode="decimal" placeholder="例如：250">
+<label for="dose2">醫囑給藥劑量（mg）</label>
+<input id="dose2" type="number" inputmode="decimal" placeholder="例如：500">
 </div>
 
 <div class="actions">
